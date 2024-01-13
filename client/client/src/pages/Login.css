@@ -1,0 +1,73 @@
+
+   
+   /* Apply styles to the main element */
+   main {
+     display: flex;
+     justify-content: center;
+   }
+   
+   /* Apply styles to the registration section container */
+   .section-registration {
+     width: 80%;
+   }
+   
+   /* Apply styles to the grid container */
+   .container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+   }
+   
+   /* Apply styles to the registration image */
+   .registration-image img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 10px;
+   }
+   
+   /* Apply styles to the registration form */
+   .registration-form {
+     display: flex;
+     flex-direction: column;
+   }
+   
+   /* Apply styles to the main heading */
+   .main-heading {
+     font-size: 24px;
+     margin-bottom: 10px;
+   }
+   
+   /* Apply styles to the form elements */
+   .form {
+     display: flex;
+     flex-direction: column;
+     gap:11px;
+   }
+   
+   .form div {
+     margin-bottom: 15px;
+   }
+   
+   /* Apply styles to the input fields */
+   .form input {
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+   }
+   
+   /* Apply styles to the submit button */
+   .btn-submit {
+     background-color: #007bff;
+     color: #fff;
+     padding: 10px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+   
+   .btn-submit:hover {
+     background-color: #0056b3;
+   }
+   .style{
+     text-align: center;
+   }

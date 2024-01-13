@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #4caf50;
+    color: white;
+}
+/* button{
+    display: flex;
+    gap:20px;
+    margin-top: 20px;
+} */
+.bottom{
+    margin-top: 12px;
+    text-align: center;
+}
+.arrow{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: 15px;
+}

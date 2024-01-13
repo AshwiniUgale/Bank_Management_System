@@ -1,0 +1,25 @@
+.container{
+    max-width: 140rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap:3rem;
+}
+.menu3 li:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    display: block;
+    transition: all 0.3s ease;
+    top: 10%;
+  }
+  .menu3 li:hover::after {
+    width: 5%;
+    height: 1px;
+    background-color:rgb(195, 132, 109);
+  }
